@@ -1,0 +1,51 @@
+body{
+    background: url("library.jpeg");
+    padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: black;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+}
+li a:hover{
+    background-color: tomato;
+}
+.container{
+    align-items: center;
+    border: 3px solid white;
+    margin: 106px 110px;
+    padding: 30px;
+    width: 33%;
+    border-radius: 28px;
+    background-color: tomato;
+}
+.form input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    font-size: 20px;
+}
